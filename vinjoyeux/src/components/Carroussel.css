@@ -11,3 +11,11 @@
 .chartreuse {
     width: 150px
 }
+
+.macon {
+    width: 200px
+}
+
+.carousel-indicators {
+    display: none;
+}

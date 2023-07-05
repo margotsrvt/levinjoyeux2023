@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Carroussel from './components/Carroussel';
+import Searchbar from './components/Searchbar';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        <Searchbar />
         <Carroussel />
         <Footer />
       </BrowserRouter>

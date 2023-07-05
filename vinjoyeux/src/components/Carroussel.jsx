@@ -4,6 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Ose from './ose.png';
 import Paul from './paul.png';
 import Chartreuse from './chartreuse.png';
+import Canailles from './domaine-des-canailles.png';
+import Macon from './macon-charnay-blanc.png';
+import Morges from './morgestradition.png';
+
 import './Carroussel.css';
 
 
@@ -18,10 +22,16 @@ const Carroussel = () => {
           src={Ose}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h5>Ose!...</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+                <img
+          className="ose"
+          src={Canailles}
+          alt="First slide"
+        />
+                <img
+          className="chartreuse"
+          src={Macon}
+          alt="First slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -29,10 +39,16 @@ const Carroussel = () => {
           src={Paul}
           alt="Second slide"
         />
-        <Carousel.Caption>
-          <h5>Paul</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+                <img
+          className="chartreuse"
+          src={Chartreuse}
+          alt="Third slide"
+        />
+                        <img
+          className="chartreuse"
+          src={Macon}
+          alt="First slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -40,12 +56,16 @@ const Carroussel = () => {
           src={Chartreuse}
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h5>Chartreuse de Mougeres</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+          <img
+          className="chartreuse"
+          src={Morges}
+          alt="Third slide"
+        />
+          <img
+          className="ose"
+          src={Canailles}
+          alt="First slide"
+        />
       </Carousel.Item>
     </Carousel>
   </div>
