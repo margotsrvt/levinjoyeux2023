@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Homepage from "./components/Homepage";
+import Carroussel from './components/Carroussel';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Homepage />
+        <Carroussel />
         <Footer />
       </BrowserRouter>
     </div>
