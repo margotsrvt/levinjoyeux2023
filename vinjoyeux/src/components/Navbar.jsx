@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Logo from "./logolevinjoyeux.png";
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div>Le Vin Joyeux
+    <div className='navbar'>
+
+  <img src={Logo} alt="logo" width="200x" />
+
     </div>
   )
 }
