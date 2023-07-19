@@ -1,21 +1,27 @@
 
-.ose {
-    width: 120px
+.productList {
+    display: flex;
+    justify-content: space-around
 }
 
-.paul {
-    width: 80px
+.productCard {
+
+    background-color: #F0EAE4;
+    width: 270px;
+
 }
 
+.addToCart {
 
-.chartreuse {
-    width: 150px
+    margin:10px;
 }
 
-.macon {
-    width: 200px
-}
-
-.carousel-indicators {
-    display: none;
+.searchBar {
+    margin: 10px;
+    padding: 4px 0 4px 48px;
+    outline: none;
+    border: 1px solid #F0EAE4;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
 }
